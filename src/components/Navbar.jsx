@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Logo from "../assets/Logo.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -9,7 +10,12 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-800 text-white fixed lg:w-full md:w-full w-full top-0 left-0 z-20 ">
       <div className="container mx-auto flex items-center justify-between p-4">
-        <h1 className="text-2xl font-bold">Veri5D</h1>
+        <div className=" font-bold">
+          <img
+            src={Logo}
+            className="lg:w-[150px] lg:h-[50px] lg:mt-[0px] lg:ml-[60px] drop-shadow-4xl max-[375px]:w-[35%] max-[375px]:h-[150%] max-[425px]:w-[35%] max-[425px]:h-[150%] max-[768px]:w-[32%] max-[768px]:h-[170%] md:w-[30%] md:h-[180%] md:ml-[20px]"
+          />
+        </div>
         <button
           className="block lg:hidden px-3 py-2 border border-gray-700 bg-gray-800 rounded-md text-gray-300 hover:text-white hover:border-white"
           onClick={toggleMenu}

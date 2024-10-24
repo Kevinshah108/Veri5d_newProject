@@ -133,13 +133,13 @@ const Clients = () => {
           </Annotation>
         </ComposableMap>
 
-        <div className="bg-gray-700 pb-10 lg:w-auto lg:justify-center">
+        <div className="bg-gray-700 pb-10 lg:w-auto lg:justify-center ">
           <h2 className="text-4xl font-bold lg:pt-20 pt-10 flex justify-center">
             Our Clients
           </h2>
 
           <div className="lg:flex md:flex lg:pt-20 pt-10 px-5 lg:pl-20 w-auto h-auto ">
-            <div className="bg-white rounded-lg text-black font-bold font-Kanit lg:text-xl text-md lg:p-5 lg:pl-10 lg:pr-7 p-5 lg:ml-20 md:ml-20">
+            <div className="bg-white rounded-lg text-black font-bold font-Kanit lg:text-xl text-md lg:p-5 lg:pl-10 lg:pr-7 p-5 lg:w-[34%] lg:ml-[110px] md:ml-20">
               <ul>Ark Golden India Pvt. Limited – Vadodara</ul>
               <ul>SRF Ltd. – Dahej / Chennai</ul>
               <ul>ADNOC – Abu Dhabi</ul>
@@ -148,7 +148,7 @@ const Clients = () => {
               <ul>Sodium Metal Pvt. Ltd. – Nandesari, Vadodara</ul>
               <ul>Mks Engineering – Vadodara</ul>
             </div>
-            <div className="bg-white rounded-lg text-black font-bold font-Kanit lg:text-xl text-md pl-5 lg:pt-5 lg:pl-10 pt-5 pb-5 mt-5 lg:pr-5 lg:mx-40 md:mx-24 md:my-0 md:ml-10">
+            <div className="bg-white rounded-lg text-black font-bold font-Kanit lg:text-xl text-md pl-5 lg:pt-5 lg:pl-10 pt-5 pb-5 mt-5 lg:pr-5 lg:w-[30%] lg:ml-[170px]  lg:mx-40 md:mx-24 md:my-0 md:ml-10">
               <ul>Mysore Ammonia Envirotech Pvt. Ltd. – Vadodara</ul>
               <ul>Jubilant Organosys Ltd. – Savli</ul>
               <ul>Sam De Services – Vadodara</ul>
@@ -166,7 +166,7 @@ const Clients = () => {
               Vadodara Projects:
             </h3>
 
-            <div className="bg-white rounded-lg text-black font-bold font-Kanit lg:pl-10 lg:text-xl text-md p-5 mx-5  ">
+            <div className="bg-white rounded-lg text-black font-bold font-Kanit lg:pl-10 lg:text-xl text-md p-5 mx-5 lg:w-[90%] ">
               <ul>Emulsion Polymerization Plant - Saudi</ul>
               <ul>VA Emulsion Plant - Egypt</ul>
               <ul>Alkyd Plant - Nigeria</ul>
